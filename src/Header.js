@@ -8,6 +8,7 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 function Header(){
 
     return(
@@ -33,6 +34,7 @@ function Header(){
                 <HeaderOption  Icon={BusinessCenterIcon}title='Jobs'/>
                 <HeaderOption  Icon={ChatBubbleIcon}title='Messaging'/>
                 <HeaderOption  Icon={NotificationsIcon}title='Notifications'/>
+                <HeaderOption avatar={AccountCircleIcon} title='Me'/>
                 
                 
 

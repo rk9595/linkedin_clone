@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeaderOption.css';
-function HeaderOption({Icon, title}){               //destucturing the object so curly braces, //Icon is a components so I is capital
+function HeaderOption({avatar, Icon, title}){               //destucturing the object so curly braces, //Icon is a components so I is capital
                                                          
 
     return(
