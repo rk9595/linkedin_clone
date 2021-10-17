@@ -16,3 +16,8 @@
     color: black;
 }
 
+.headerOption_icon{
+    object-fit: contain;
+    height: 25px;
+    width: 25px;
+}

@@ -8,7 +8,7 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-//import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 function Header(){
 
     return(
@@ -34,7 +34,7 @@ function Header(){
                 <HeaderOption  Icon={BusinessCenterIcon}title='Jobs'/>
                 <HeaderOption  Icon={ChatBubbleIcon}title='Messaging'/>
                 <HeaderOption  Icon={NotificationsIcon}title='Notifications'/>
-                <HeaderOption avatar="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyDj7BhRycZLIGPxER2R88pKRl8hL5fI8zFg&usqp=CAU" title='Me'/>
+                <HeaderOption  Icon={AccountCircleIcon} title='Me'/>
                 
                 
 
